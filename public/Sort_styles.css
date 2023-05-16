@@ -1,0 +1,102 @@
+body
+{
+   background-color: grey;
+   margin: 0px;
+   padding:0px;
+}
+.Content
+{
+    
+    margin:100px auto 100px auto;
+    width:100%;
+    text-align: center;
+    height:300px;
+}
+.def
+{
+    padding:20px;
+    background-color: white;
+    border:2px solid black;
+    border-radius: 10px;
+    width:90%;
+    margin-left: 30px;
+}
+.TC
+{
+   margin-top:60px;
+   padding:15px;
+   width:60%;
+   margin-left:200px;
+   border-radius:5px;
+   background-color: black;
+   color:white;
+}
+.bstart,.bstop,.bresume,.Sstart,.Sstop,.Sresume,.Istart,.Istop,.Iresume
+{
+    color:white;
+    border:0px solid white;
+    background-color: black;
+    padding:10px;
+    font-size: 15px;
+    width:7%;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.bresume,.Sresume
+{
+    color:black;
+    background-color: white;
+    margin-right: 30px;
+    margin-top:60px;
+}
+.bstop,.Sstop,.Istop
+{
+    color:white;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+ul.sorting
+{
+    list-style-type:none;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+li
+{
+    display: inline-block;
+    padding: 20px;    
+    font-size: large;
+    margin-left: 20px;
+    margin-right: 150px;
+    position: relative;
+    top:20px;    
+}
+.sort-heading
+{
+   width:300px;
+   margin:10px auto 0px auto;
+}
+.sort-heading p
+{
+    display:inline-block;
+    background-color: white;
+    padding:10px;
+    color:green;
+    border:0px solid white;
+    border-radius: 5px;
+}
+p.back
+{
+    position: absolute;
+    left:10px;
+}
+p.back a
+{
+    text-decoration: none;
+}
+p.back:hover
+{
+    background-color: orange;
+}
