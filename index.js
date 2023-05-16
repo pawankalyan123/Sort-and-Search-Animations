@@ -1,6 +1,7 @@
 const express=require('express');
 const app=express();
 const ejs=require('ejs');
+const PORT=process.env.PORT;
 app.set('view engine','ejs');
 app.use('/public',express.static('public'));
 
@@ -33,6 +34,6 @@ app.get('/Search.js', function(req, res) {
     res.sendFile(__dirname + '/Search.js');
 });
 
-app.listen(3000,(req,res)=>{
+app.listen(PORT,(req,res)=>{
     console.log('server is running');
 })
